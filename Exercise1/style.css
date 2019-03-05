@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style untuk nav bar */
+.topnav {
+    overflow: hidden;
+    background-color: dodgerblue;
+}
+
+/* Style untuk judul pada navbar */
+.topnav h1 {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Style untuk konten */
+.content {
+    background-color: #fff;
+    padding: 10px;
+    height: auto;
+    
+}
+
+/* Style untuk image */
+.img {
+    width: 120px;
+    height: 160px;
+    border-color: dimgrey;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* Style untuk footer */
+.footer { 
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style untuk table */
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+}
+#member tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#member tr:hover {
+    background-color: #ddd;
+}
